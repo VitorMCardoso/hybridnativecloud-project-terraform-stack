@@ -13,10 +13,10 @@ variable "aws_amis" {
 }
 
 variable "KEY_NAME" {
-  default = "fiap-lab"
+  default = "nginx-lab-prod"
 }
 variable "PATH_TO_KEY" {
-  default = "/app/.ssh/fiap-lab.pem"
+  default = "/.ssh/nginx-lab.pem"
 }
 variable "INSTANCE_USERNAME" {
   default = "ubuntu"
