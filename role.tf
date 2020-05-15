@@ -23,7 +23,7 @@ EOF
 }
 
 resource "aws_iam_instance_profile" "ecr_readOnly_profile" {
-  name = "ecr_readOnly_profile"
+  name = "ecr_readOnly_profile-2"
   role = aws_iam_role.ecr_readOnly_role.name
 }
 
