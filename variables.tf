@@ -16,7 +16,7 @@ variable "KEY_NAME" {
   default = "nginx-lab-prod"
 }
 variable "PATH_TO_KEY" {
-  default = "/.ssh/nginx-lab.pem"
+  default = "/app/.ssh/nginx-lab.pem"
 }
 variable "INSTANCE_USERNAME" {
   default = "ubuntu"
